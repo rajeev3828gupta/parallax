@@ -1,0 +1,85 @@
+nav{
+   display: flex;
+   background-color: black;
+   padding: 10px 10px;
+}
+nav a{
+   color: white;
+   text-decoration: none;
+   padding: 3px 51px 4px 10px;
+ }
+ nav a:hover{
+   color: red;
+   cursor: pointer;
+   background-color: white ;
+ }
+ input{
+   border-radius: 10px;
+   padding-right: 50px;
+   margin-left: 424px;
+ }
+html,body{
+    height: 100%;
+   }
+.pimg1{
+    background-image: url(../images/bridge.jpg);
+    min-height: 100%;
+}
+.pimg1,.gimg2,.kimg3{
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    background-position: center;
+    background-attachment: fixed;
+    }
+ .textbg{
+    color: antiquewhite;
+    font-size: xxx-large;
+    font-weight: bold;
+    font-style: italic;
+    text-shadow: 5px 5px 5px red;
+ }   
+ .ptext,.gtext,.ktext{
+    text-align: center;
+    padding-top: 15%;
+ }
+ .brief{
+    text-align: center;
+    padding: 10px 10px;
+    background-color: darkolivegreen;
+    color: white;
+ }
+ .gimg2{
+    background-image: url(../images/trees.jpg);
+    min-height: 100%;
+ }
+ .textbf{
+    color: antiquewhite;
+    font-size: xxx-large;
+    font-weight: bold;
+    font-style: italic;
+    text-shadow: 5px 5px 5px cornflowerblue;
+ }
+ .deed{
+    text-align: center;
+    background-color: rgb(241, 146, 78) ;
+    padding: 10px 10px;
+    color: rgb(255, 0, 0);
+ }
+ .kimg3{
+    background-image: url(../images/window.jpg);
+    min-height: 100%;
+ }
+ .textbk{
+    color: antiquewhite;
+    font-size: xxx-large;
+    font-weight: bold;
+    font-style: italic;
+    text-shadow: 5px 5px 5px chocolate;
+ }
+ .damage{
+    text-align: center;
+    background-color: gray;
+    padding: 10px 10px;
+    color: white;
+ }
